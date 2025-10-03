@@ -15,13 +15,13 @@ sql /nolog
 Connect and save with speccifying tns admin path, (modify user, pwd, service name, tnsnames.ora location)
 
 ```bash
-export TNS_ADMIN=“/home/opc/dbcicd-demo/wallet/dev1”
+export TNS_ADMIN="/home/opc/dbcicd-demo/wallet/dev1"
 ```
 ```bash
 sql /nolog
 ```
 ```bash
-connect -save hr_dev1_new -savepwd user/password@myatp_low(servicename)?TNS_ADMIN=“/home/opc/dbcicd-demo/wallet/dev1"
+connect -save hr_dev1_new -savepwd user/password@myatp_low(servicename)?TNS_ADMIN="/home/opc/dbcicd-demo/wallet/dev1"
 ```
 list existing connections within sqlcl
 
